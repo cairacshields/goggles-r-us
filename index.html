@@ -1,0 +1,105 @@
+<!DOCTYPE html> 
+
+<html>
+
+<head lang="en">
+<meta charset="utf-8">
+<title> Goggles-R-Us </title>
+
+<!-- Linking our Favicon .ico image to the title (Make sure the image is 16x16) -->
+<link rel="shortcut icon" href="glasses.ico" type="image/x-icon">
+
+<!-- Script tag for JQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<!-- Script and Link tag for Bootstrap -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- Link to Animate.css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+<!-- Script to our CSS file --> 
+<link rel="stylesheet" href="goggles.css" type="text/css">
+
+
+<!-- Script for JQuery UI -->
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+<!-- Script to our .JS file -->
+<script src="goggles.js"></script>
+</head>
+
+<body>
+
+<!-- Beginning of our Main Navigation using BootStrap -->
+<nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="index.html"> Goggles-R-Us </a>
+		</div>
+
+		<ul class="nav navbar-nav">
+
+			<li class="active"><a href="#"> Home </a></li>
+			<li><a href="#"> Flash Sale! </a></li>
+			<li><a href="#"> Weekly New </a></li>
+			<li><a href="#"> Mens </a></li>
+			<li><a href="#"> Womens</a></li>
+		</ul>
+	</div>
+</nav>
+<!-- End of Main Navigation usin BootStrap! -->
+
+<!-- Beginning of Carousel Slide -->
+
+<div id="mySlider" class="carousel slide" data-ride="carousel">
+
+<!-- Beginning of indicators -->
+
+	<ol class="carousel-indicators">
+
+		<li data-target="mySlider" data-slide-to="0" class="active"> </li>
+		<li data-target="mySlider" data-slide-to="1"></li>
+		<li data-target="mySlider" data-slide-to="2"></li>
+
+	</ol>
+
+<!-- End of indicators, Beginning of wrappers for slides -->
+
+	<div class="carousel-inner" role="listbox">
+
+		<div class="item active">
+			<img class="img-responsive slideImage" src="https://lh4.googleusercontent.com/-7FNIVwiO4PQ/Tw2aPi30fMI/AAAAAAAAE7c/RvFOj72ruGY/s800/tom-ford-ss-2012-matthias-bergh-mirte-maas-by-tom-ford-1.jpg">
+		</div>
+		<div class="item">
+			<img class="img-responsive slideImage" src="https://s-media-cache-ak0.pinimg.com/originals/4e/bf/15/4ebf15817f8a7c2405d113377329adc2.jpg">
+		</div>
+		<div class="item">
+			<img class="img-responsive slideImage" src="https://s-media-cache-ak0.pinimg.com/originals/db/6e/54/db6e54d074ea3a96591f3c228c1834c2.jpg">
+		</div>
+
+	</div>
+
+<!-- End of wrappers for slides, Beginning of controls -->
+	<a class="left carousel-control" href="#mySlider" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" aria-hiden="true"></span>
+		<span class="sr-only">Next</span>
+	</a>
+	<a class="right carousel-control" href="#mySlider" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	</a>
+<!-- End of Controls -->
+
+</div>
+
+<!-- End of Carousel slider gallery! -->
+
+
+</body>
+
+
+</html>
+

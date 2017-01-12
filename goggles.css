@@ -1,0 +1,12 @@
+.navbar{
+	margin:0;
+}
+.slideImage{
+	margin: 0 auto;
+	height: 400px;
+	width: 500px;
+}
+.carousel{
+	margin: 0;
+	background-color: black;
+}
